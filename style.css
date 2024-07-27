@@ -1,0 +1,160 @@
+body{
+    margin: 0px;
+    padding-left: 0px;
+}
+.top{
+    display: inline-block;
+    padding-top: 10px;
+}
+#search{
+    position: relative;
+    left: 10px;
+}
+
+#logo{
+    position: absolute;
+    left: 40%;
+    top: 20px;
+}
+.ancor#Register
+{
+    position: absolute;
+    left: 85%;
+    background-color: black;
+    color: white;
+    width: 80px;
+    text-align: center;
+    text-decoration: none;
+}
+.ancor#sign-in{
+    color: black;
+    text-shadow: 10px;
+    position: absolute;
+    left: 94%;
+    text-decoration: none;
+    font-size: larger;
+}
+.mid{
+    display: inline-block;
+    margin-left: 20%;
+    
+}
+.mid .ancor{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+#home{
+    border-bottom: solid black 2.5px;
+    padding-bottom: 6px;
+}
+.news1 , .news2 , .news3, .news4{
+    vertical-align: top;
+    display: inline-block;
+}
+.news1,.news4{
+    position: relative;
+    left: 10px;
+}
+.news1{
+    display: inline-block;
+    position: relative;
+    top: 0%;
+    
+}
+.news2{
+    display: inline-block;
+    position: relative;
+    left :1%
+}
+.news3{
+    display: inline-block;
+    position: relative;
+    left: 30px;
+}
+.news4{
+    
+    margin-top: -200px;
+
+}
+.news1 img{
+    height: 201px;
+}
+.news1 h6{
+    font-size: 22px;
+    margin-top: -5px;
+}
+.news1 p{
+    font-size:18px;
+    margin-top: -40px;
+}
+.news2 img{
+    height: 300px;
+    width: 700px;
+}
+.news2 h4{
+    font-size: 35px;
+    margin-top: -5px;
+}
+.news2 p{
+    margin-top: -30px;
+}
+.news2 li{
+    margin-top: 50px;
+    margin-left: -25px;
+    font-size: large;
+}
+.news3 h2{
+    font-size: 20px;
+    margin-top: 0px;
+}
+.news4 img{
+    height: 201px;
+}
+.news4 h6{
+    font-size: 22px;
+    margin-top: 5px;
+}
+.news4 p{
+    margin-top: -40px;
+    font-size: 18px;
+}
+/* 
+TODO: Change the background color for each device
+[lightsalmon] Mobile Devices: 319px — 480px
+[powderblue] iPads and Tablets: 481px — 1200px
+[limegreen] Laptops: 1201px — 1600px
+[seagreen] Desktops: 1601px and more
+ */
+@media (min-width :319px ) and (max-width:480px) {
+    body{
+        display: block;
+    }
+    .mid{
+        display: none;
+    }
+    .top #search{
+        height: 35px;
+        margin-left: 0px;
+    }
+    .top #Register , #sign-in{
+        display: block;
+        margin-top: -40px;
+        margin-left: -30px;
+    }
+    .top #sign-in{
+        display: block;
+        margin-top: -20px;
+        width: 60px;
+        margin-left: -55px;
+    }
+    .top #logo{
+        vertical-align: top;
+        margin-top: 5px;
+        margin-left: -20px;
+        height: 40px;
+    }
+    .news2 img{
+        width: 420px;
+    }
+}
